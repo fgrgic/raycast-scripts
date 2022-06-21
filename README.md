@@ -1,3 +1,5 @@
+# If using NVM
+
 Run the setup script before starting:
 
 ```sh
