@@ -1,5 +1,4 @@
-#!/Users/fran/.nvm/versions/node/v16.15.1/bin/node
-// the path above is used because the node isn't installed globally, but through nvm.
+#!/usr/local/bin/node
 
 // Required parameters:
 // @raycast.schemaVersion 1

@@ -1,4 +1,4 @@
-#!/Users/fran/.nvm/versions/node/v16.15.1/bin/node
+#!/usr/local/bin/node
 
 // Required parameters:
 // @raycast.schemaVersion 1
