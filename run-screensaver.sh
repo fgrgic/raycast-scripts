@@ -3,8 +3,7 @@
 # Required parameters:
 # @raycast.schemaVersion 1
 # @raycast.title Run Screensaver
-# raycast.mode silent
-# @raycast.mode compact
+# @raycast.mode silent
 
 # Optional parameters:
 # @raycast.icon 🖥️
