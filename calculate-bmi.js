@@ -1,4 +1,4 @@
-#!/Users/fran/.nvm/versions/node/v24.14.1/bin/node
+#!/Users/fran/.nvm/versions/node/v24.15.0/bin/node
 
 // Required parameters:
 // @raycast.schemaVersion 1
@@ -44,7 +44,7 @@ if (bmi < 18.5) {
       roundedWeightToGain +
       " kg to make your BMI at least 18.5 weighing " +
       Math.round(lowerNormalWeight * 100) / 100 +
-      " kg"
+      " kg",
   );
 } else if (bmi < 25) {
   console.log("You are normal weight");
@@ -55,7 +55,7 @@ if (bmi < 18.5) {
       roundedWeightToLose +
       " kg to make your BMI at most 25 weighing " +
       Math.round(upperNormalWeight * 100) / 100 +
-      " kg"
+      " kg",
   );
 } else {
   console.log("You are obese");
@@ -64,6 +64,6 @@ if (bmi < 18.5) {
       roundedWeightToLose +
       " kg to make your BMI at most 25 weighing " +
       Math.round(upperNormalWeight * 100) / 100 +
-      " kg"
+      " kg",
   );
 }
