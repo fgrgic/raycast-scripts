@@ -2,14 +2,14 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Finder -> VSCode
+# @raycast.title Finder -> Zed
 # @raycast.mode silent
 
 # Optional parameters:
 # @raycast.icon ??
 
 # Documentation:
-# @raycast.description Open current Finder folder in VSCode
+# @raycast.description Open current Finder folder in Zed
 # @raycast.author Fran Grgic
 # @raycast.authorURL https://github.com/fgrgic
 
@@ -22,5 +22,5 @@ tell application "Finder"
 end tell
 
 tell application "System Events"
-  do shell script "code " & pathList
+  do shell script "zed " & pathList
 end tell
